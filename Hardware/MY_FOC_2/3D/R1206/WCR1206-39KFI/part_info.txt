@@ -1,0 +1,9 @@
+Manufacturer=TT Electronics
+PartNumber=WCR1206-39KFI
+PartCategory=Resistor
+PackageCategory=Resistor Chip
+PinCount=2
+Version=1.2
+Released=2023-03-07 11:05:49
+Downloaded=2023-05-20 04:34:48
+3D=Y

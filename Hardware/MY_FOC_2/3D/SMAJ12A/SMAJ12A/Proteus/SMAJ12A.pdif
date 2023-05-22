@@ -1,0 +1,123 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "SMAJ12A"
+   (description "LITTELFUSE - SMAJ12A - TVS Diode, SMAJ1 Series, Unidirectional, 12 V, 19.9 V, DO-214AC (SMA), 2 Pins")
+   (family "ANA")
+   (package "DIOM5127X229N")
+   (attribute "Datasheet Link" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf")
+   (attribute "Geometry.Height" "2.29mm")
+   (attribute "Manufacturer_Name" "LITTELFUSE")
+   (attribute "Manufacturer_Part_Number" "SMAJ12A")
+   (attribute "Mouser Part Number" "576-SMAJ12A")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/SMAJ12A?qs=HR2RnyOI4E63xEASay2NCQ%3D%3D")
+   (attribute "Arrow Part Number" "SMAJ12A")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/smaj12a/littelfuse?region=nac")
+   (gate
+    (symbol "SMAJ12A")
+    (pin "K" 1 PS)
+    (pin "A" 2 PS)
+   )
+  )
+  (symbol "SMAJ12A"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 0) (pt 400 100) (pt 400 -100) (pt 200 0) (closed))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 200 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 100 0) (pt 200 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 500 0) (pt 400 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 200 -100) (pt 260 -100))
+   )
+   (terminal
+    (body (symbol "PINSHORT") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 140 10) (rot 0) (just MIDDLE LEFT) (visible false))
+    (number (pt 60 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 600 0) (rot 0) (mir X) (visible true))
+    (name (pt 140 10) (rot 0) (just MIDDLE LEFT) (visible false))
+    (number (pt 60 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "DIOM5127X229N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -3.4 1.645)
+      (pt 3.4 1.645)
+      (pt 3.4 -1.645)
+      (pt -3.4 -1.645)
+      (pt -3.4 1.645))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.552 1.332)
+      (pt 2.552 1.332)
+      (pt 2.552 -1.332)
+      (pt -2.552 -1.332)
+      (pt -2.552 1.332))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -2.552 0.558)
+      (pt -1.778 1.332))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 2.552 1.332)
+      (pt -2.825 1.332))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -2.552 -1.332)
+      (pt 2.552 -1.332))))
+   (leg 1 (pt -2.05 0) (padstack 0))
+   (leg 2 (pt 2.05 0) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.55 2.2 0 0 0))
+   )
+   (model "SMAJ12A.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

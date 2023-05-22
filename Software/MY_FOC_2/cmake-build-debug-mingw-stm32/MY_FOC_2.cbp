@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MY_FOC_2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/Clion/Project/MY_FOC_2/cmake-build-debug-mingw-stm32"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/Clion/MinGW/Install/bin/mingw32-make.exe -f &quot;E:/Clion/Project/MY_FOC_2/cmake-build-debug-mingw-stm32/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/Clion/MinGW/Install/bin/mingw32-make.exe -f &quot;E:/Clion/Project/MY_FOC_2/cmake-build-debug-mingw-stm32/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Clion/MinGW/Install/bin/mingw32-make.exe -f &quot;E:/Clion/Project/MY_FOC_2/cmake-build-debug-mingw-stm32/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Clion/MinGW/Install/bin/mingw32-make.exe -f &quot;E:/Clion/Project/MY_FOC_2/cmake-build-debug-mingw-stm32/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MY_FOC_2.elf">
+				<Option output="E:/Clion/Project/MY_FOC_2/cmake-build-debug-mingw-stm32/MY_FOC_2.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Clion/Project/MY_FOC_2/cmake-build-debug-mingw-stm32"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xB"/>
+					<Add directory="E:/Clion/Project/MY_FOC_2/Core/Inc"/>
+					<Add directory="E:/Clion/Project/MY_FOC_2/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="E:/Clion/Project/MY_FOC_2/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="E:/Clion/Project/MY_FOC_2/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="E:/Clion/Project/MY_FOC_2/Drivers/CMSIS/Include"/>
+					<Add directory="E:/Clion/Project/MY_FOC_2/HARDWARE/retarget"/>
+					<Add directory="E:/Clion/Project/MY_FOC_2/HARDWARE/MT6701_SPI"/>
+					<Add directory="E:/Clion/Project/MY_FOC_2/HARDWARE/Motor_ADC"/>
+					<Add directory="E:/Clion/Project/MY_FOC_2/FOC_Ctrl/IQMath"/>
+					<Add directory="E:/Clion/Project/MY_FOC_2/FOC_Ctrl/BLDC_MOTOR"/>
+					<Add directory="E:/Clion/Project/MY_FOC_2/FOC_Ctrl/User_APP"/>
+					<Add directory="E:/Clion/Project/MY_FOC_2/FOC_Ctrl/FOC_Math"/>
+					<Add directory="e:\clion\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="e:\clion\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="e:\clion\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="e:\clion\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="e:\clion\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="e:\clion\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/Clion/MinGW/Install/bin/mingw32-make.exe -f &quot;E:/Clion/Project/MY_FOC_2/cmake-build-debug-mingw-stm32/Makefile&quot;  VERBOSE=1 MY_FOC_2.elf"/>
+					<CompileFile command="E:/Clion/MinGW/Install/bin/mingw32-make.exe -f &quot;E:/Clion/Project/MY_FOC_2/cmake-build-debug-mingw-stm32/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Clion/MinGW/Install/bin/mingw32-make.exe -f &quot;E:/Clion/Project/MY_FOC_2/cmake-build-debug-mingw-stm32/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Clion/MinGW/Install/bin/mingw32-make.exe -f &quot;E:/Clion/Project/MY_FOC_2/cmake-build-debug-mingw-stm32/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MY_FOC_2.elf/fast">
+				<Option output="E:/Clion/Project/MY_FOC_2/cmake-build-debug-mingw-stm32/MY_FOC_2.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Clion/Project/MY_FOC_2/cmake-build-debug-mingw-stm32"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xB"/>
+					<Add directory="E:/Clion/Project/MY_FOC_2/Core/Inc"/>
+					<Add directory="E:/Clion/Project/MY_FOC_2/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="E:/Clion/Project/MY_FOC_2/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="E:/Clion/Project/MY_FOC_2/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="E:/Clion/Project/MY_FOC_2/Drivers/CMSIS/Include"/>
+					<Add directory="E:/Clion/Project/MY_FOC_2/HARDWARE/retarget"/>
+					<Add directory="E:/Clion/Project/MY_FOC_2/HARDWARE/MT6701_SPI"/>
+					<Add directory="E:/Clion/Project/MY_FOC_2/HARDWARE/Motor_ADC"/>
+					<Add directory="E:/Clion/Project/MY_FOC_2/FOC_Ctrl/IQMath"/>
+					<Add directory="E:/Clion/Project/MY_FOC_2/FOC_Ctrl/BLDC_MOTOR"/>
+					<Add directory="E:/Clion/Project/MY_FOC_2/FOC_Ctrl/User_APP"/>
+					<Add directory="E:/Clion/Project/MY_FOC_2/FOC_Ctrl/FOC_Math"/>
+					<Add directory="e:\clion\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="e:\clion\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="e:\clion\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="e:\clion\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="e:\clion\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="e:\clion\arm-none-eabi-gcc\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/Clion/MinGW/Install/bin/mingw32-make.exe -f &quot;E:/Clion/Project/MY_FOC_2/cmake-build-debug-mingw-stm32/Makefile&quot;  VERBOSE=1 MY_FOC_2.elf/fast"/>
+					<CompileFile command="E:/Clion/MinGW/Install/bin/mingw32-make.exe -f &quot;E:/Clion/Project/MY_FOC_2/cmake-build-debug-mingw-stm32/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Clion/MinGW/Install/bin/mingw32-make.exe -f &quot;E:/Clion/Project/MY_FOC_2/cmake-build-debug-mingw-stm32/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Clion/MinGW/Install/bin/mingw32-make.exe -f &quot;E:/Clion/Project/MY_FOC_2/cmake-build-debug-mingw-stm32/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/Clion/Project/MY_FOC_2/cmake-build-debug-mingw-stm32"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/Clion/MinGW/Install/bin/mingw32-make.exe -f &quot;E:/Clion/Project/MY_FOC_2/cmake-build-debug-mingw-stm32/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/Clion/MinGW/Install/bin/mingw32-make.exe -f &quot;E:/Clion/Project/MY_FOC_2/cmake-build-debug-mingw-stm32/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Clion/MinGW/Install/bin/mingw32-make.exe -f &quot;E:/Clion/Project/MY_FOC_2/cmake-build-debug-mingw-stm32/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Clion/MinGW/Install/bin/mingw32-make.exe -f &quot;E:/Clion/Project/MY_FOC_2/cmake-build-debug-mingw-stm32/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/Clion/Project/MY_FOC_2/cmake-build-debug-mingw-stm32"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/Clion/MinGW/Install/bin/mingw32-make.exe -f &quot;E:/Clion/Project/MY_FOC_2/cmake-build-debug-mingw-stm32/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/Clion/MinGW/Install/bin/mingw32-make.exe -f &quot;E:/Clion/Project/MY_FOC_2/cmake-build-debug-mingw-stm32/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Clion/MinGW/Install/bin/mingw32-make.exe -f &quot;E:/Clion/Project/MY_FOC_2/cmake-build-debug-mingw-stm32/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Clion/MinGW/Install/bin/mingw32-make.exe -f &quot;E:/Clion/Project/MY_FOC_2/cmake-build-debug-mingw-stm32/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Core/Inc/adc.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Core/Inc/dma.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Core/Inc/gpio.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Core/Inc/main.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Core/Inc/spi.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Core/Inc/stm32f1xx_hal_conf.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Core/Inc/stm32f1xx_it.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Core/Inc/tim.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Core/Inc/usart.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Core/Src/adc.c">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Core/Src/dma.c">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Core/Src/gpio.c">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Core/Src/main.c">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Core/Src/spi.c">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Core/Src/stm32f1xx_hal_msp.c">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Core/Src/stm32f1xx_it.c">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Core/Src/syscalls.c">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Core/Src/sysmem.c">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Core/Src/system_stm32f1xx.c">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Core/Src/tim.c">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Core/Src/usart.c">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Core/Startup/startup_stm32f103c8tx.s">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/CMSIS/Device/ST/STM32F1xx/License.md">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/CMSIS/LICENSE.txt">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_cortex.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_exti.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_pwr.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rcc.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_system.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_utils.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/STM32F1xx_HAL_Driver/License.md">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/FOC_Ctrl/BLDC_MOTOR/BLDC_MOTOR.c">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/FOC_Ctrl/BLDC_MOTOR/BLDC_MOTOR.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/FOC_Ctrl/FOC_Math/FOC_Math.c">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/FOC_Ctrl/FOC_Math/FOC_Math.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/FOC_Ctrl/IQMath/IQmathLib.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/FOC_Ctrl/User_APP/User_APP.c">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/FOC_Ctrl/User_APP/User_APP.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/HARDWARE/MT6701_SPI/MT6701_SPI.c">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/HARDWARE/MT6701_SPI/MT6701_SPI.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/HARDWARE/Motor_ADC/Motor_ADC.c">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/HARDWARE/Motor_ADC/Motor_ADC.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/HARDWARE/retarget/retarget.c">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/HARDWARE/retarget/retarget.h">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/STM32F103C8TX_FLASH.ld">
+			<Option target="MY_FOC_2.elf"/>
+		</Unit>
+		<Unit filename="E:/Clion/Project/MY_FOC_2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

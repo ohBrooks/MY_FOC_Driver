@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'WCR1206_39KFI'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TT Electronics", "WCR1206-39KFI" (!) = "", "RESC3116X70N", "Resistor Chip", "756-WCR1206-39KFI", "https://www.mouser.com/Search/Refine.aspx?Keyword=756-WCR1206-39KFI", "", "", "WELWYN - WCR1206-39KFI - RES, THICK FILM, 39K, 1%, 0.25W, 1206", "http://www.ttelectronicsresistors.com/datasheets/WCR.pdf", "0.7 mm"
+END_PART
+
+END.

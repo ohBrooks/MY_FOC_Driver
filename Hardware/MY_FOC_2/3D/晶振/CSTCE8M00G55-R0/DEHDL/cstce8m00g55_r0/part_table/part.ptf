@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'CSTCE8M00G55_R0'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "Murata Electronics", "CSTCE8M00G55-R0" (!) = "", "CSTCE12M0G55-R0", "Other", "81-CSTCE8M00G55-R0", "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/CSTCE8M00G55-R0?qs=eoDEeL6nyORcaHhGM345mw%3D%3D", "CSTCE8M00G55-R0", "https://www.arrow.com/en/products/cstce8m00g55-r0/murata-manufacturing", "SMT ceramic resonator 8.0MHz CSTCE8M00G55-R0, Ceramic Resonator, 8MHz Fundamental 33pF, 3-Pin Cap Chip, 3.2 x 1.3 x 0.7mm", "http://www.murata.com/en-eu/api/pdfdownloadapi?cate=&partno=CSTCE8M00G55-R0"
+END_PART
+
+END.

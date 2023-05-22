@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SMAJ12A
+D LITTELFUSE - SMAJ12A - TVS Diode, SMAJ1 Series, Unidirectional, 12 V, 19.9 V, DO-214AC (SMA), 2 Pins
+K
+F https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf
+$ENDCMP
+#
+#End Doc Library

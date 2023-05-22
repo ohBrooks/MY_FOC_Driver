@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SGL8022W_SOP8
+D Single-channel DC LED control touch chip Version 1.6
+K
+F http://www.coldtears-electronics.com/images/SGL8022W.pdf
+$ENDCMP
+#
+#End Doc Library

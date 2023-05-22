@@ -1,0 +1,4 @@
+无法生成至 E:\FOC\FOC Project\MY_FOC_2\开源\MY_FOC_Driver\Software\MY_FOC_2\cmake-build-debug-mingw-stm32
+它已用于项目 E:\Clion\Project\MY_FOC_2
+
+请手动删除或选择其他生成目录

@@ -1,0 +1,9 @@
+Manufacturer=Sigma Designs Inc.
+PartNumber=SGL8022W/SOP8
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=1.1
+Released=2018-01-03 13:04:04
+Downloaded=2023-05-20 04:30:46
+3D=Y

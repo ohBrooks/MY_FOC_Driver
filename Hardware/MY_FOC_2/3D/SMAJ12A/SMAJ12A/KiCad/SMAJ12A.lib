@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model SMAJ12A
+#/556575/869330/2.50/2/3/Diode ESD (Uni-directional)
+DEF SMAJ12A D 0 30 Y Y 1 F N
+F0 "D" 400 350 50 H V L CNN
+F1 "SMAJ12A" 400 250 50 H V L CNN
+F2 "DIOM5127X229N" 400 150 50 H I L CNN
+F3 "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf" 400 50 50 H I L CNN
+F4 "LITTELFUSE - SMAJ12A - TVS Diode, SMAJ1 Series, Unidirectional, 12 V, 19.9 V, DO-214AC (SMA), 2 Pins" 400 -50 50 H I L CNN "Description"
+F5 "2.29" 400 -150 50 H I L CNN "Height"
+F6 "LITTELFUSE" 400 -250 50 H I L CNN "Manufacturer_Name"
+F7 "SMAJ12A" 400 -350 50 H I L CNN "Manufacturer_Part_Number"
+F8 "576-SMAJ12A" 400 -450 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Littelfuse/SMAJ12A?qs=HR2RnyOI4E63xEASay2NCQ%3D%3D" 400 -550 50 H I L CNN "Mouser Price/Stock"
+F10 "SMAJ12A" 400 -650 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/smaj12a/littelfuse?region=nac" 400 -750 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 600 0 100 L 50 50 0 0 P
+P 4 0 1 6 200 0 400 100 400 -100 200 0 N
+P 2 0 1 6 200 100 200 -100 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 500 0 400 0 N
+P 2 0 1 6 200 -100 260 -100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

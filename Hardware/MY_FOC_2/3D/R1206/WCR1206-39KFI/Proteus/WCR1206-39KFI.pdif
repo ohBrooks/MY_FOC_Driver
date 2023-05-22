@@ -1,0 +1,93 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "WCR1206-39KFI"
+   (description "WELWYN - WCR1206-39KFI - RES, THICK FILM, 39K, 1%, 0.25W, 1206")
+   (family "RES")
+   (package "RESC3116X70N")
+   (attribute "Datasheet Link" "http://www.ttelectronicsresistors.com/datasheets/WCR.pdf")
+   (attribute "Geometry.Height" "0.7mm")
+   (attribute "Manufacturer_Name" "TT Electronics")
+   (attribute "Manufacturer_Part_Number" "WCR1206-39KFI")
+   (attribute "Mouser Part Number" "756-WCR1206-39KFI")
+   (attribute "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=756-WCR1206-39KFI")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "WCR1206-39KFI")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "WCR1206-39KFI"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 50) (pt 500 50) (pt 500 -50) (pt 200 -50) (pt 200 50) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 700 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "RESC3116X70N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -2.25 1.15)
+      (pt 2.25 1.15)
+      (pt 2.25 -1.15)
+      (pt -2.25 -1.15)
+      (pt -2.25 1.15))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.562 0.788)
+      (pt 1.562 0.788)
+      (pt 1.562 -0.788)
+      (pt -1.562 -0.788)
+      (pt -1.562 0.788))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 0 0.688)
+      (pt 0 -0.688))))
+   (leg 1 (pt -1.45 0) (padstack 0))
+   (leg 2 (pt 1.45 0) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.1 1.75 0 0 90))
+   )
+   (model "WCR1206-39KFI.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

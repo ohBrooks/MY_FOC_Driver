@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=INA240A2PW
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=1.1
+Released=2017-11-27 11:51:58
+Downloaded=2023-05-20 04:35:57
+3D=Y

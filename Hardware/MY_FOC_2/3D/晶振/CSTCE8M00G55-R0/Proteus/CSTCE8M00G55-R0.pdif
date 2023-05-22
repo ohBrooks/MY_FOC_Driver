@@ -1,0 +1,131 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "CSTCE8M00G55-R0"
+   (description "SMT ceramic resonator 8.0MHz CSTCE8M00G55-R0, Ceramic Resonator, 8MHz Fundamental 33pF, 3-Pin Cap Chip, 3.2 x 1.3 x 0.7mm")
+   (family "RES")
+   (package "CSTCE12M0G55-R0")
+   (attribute "Datasheet Link" "http://www.murata.com/en-eu/api/pdfdownloadapi?cate=&partno=CSTCE8M00G55-R0")
+   (attribute "Manufacturer_Name" "Murata Electronics")
+   (attribute "Manufacturer_Part_Number" "CSTCE8M00G55-R0")
+   (attribute "Mouser Part Number" "81-CSTCE8M00G55-R0")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/CSTCE8M00G55-R0?qs=eoDEeL6nyORcaHhGM345mw%3D%3D")
+   (attribute "Arrow Part Number" "CSTCE8M00G55-R0")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/cstce8m00g55-r0/murata-manufacturing")
+   (gate
+    (symbol "CSTCE8M00G55-R0")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+   )
+  )
+  (symbol "CSTCE8M00G55-R0"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "CSTCE12M0G55-R0"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.254)
+     (path
+      (closed true)
+      (pt -1.6 0.65)
+      (pt 1.6 0.65)
+      (pt 1.6 -0.65)
+      (pt -1.6 -0.65)
+      (pt -1.6 0.65))))
+   (layer TSLK
+    (graphic
+     (stroke 0.254)
+     (path
+      (closed false)
+      (pt -1.6 -0.65)
+      (pt -1.6 0.65))))
+   (layer TSLK
+    (graphic
+     (stroke 0.254)
+     (path
+      (closed false)
+      (pt 1.6 0.65)
+      (pt 1.6 -0.65))))
+   (layer TSLK
+    (graphic
+     (stroke 0.254)
+     (circle
+      (pt -1.60514 1.228) (pt -1.51286 1.228)
+     )
+    )
+   )
+   (layer TSLK
+    (graphic
+     (stroke 0.254)
+     (path
+      (closed false)
+      (pt -0.807 0.65)
+      (pt -0.428 0.65))))
+   (layer TSLK
+    (graphic
+     (stroke 0.254)
+     (path
+      (closed false)
+      (pt 0.417 0.65)
+      (pt 0.796 0.65))))
+   (layer TSLK
+    (graphic
+     (stroke 0.254)
+     (path
+      (closed false)
+      (pt -0.783 -0.65)
+      (pt -0.404 -0.65))))
+   (layer TSLK
+    (graphic
+     (stroke 0.254)
+     (path
+      (closed false)
+      (pt 0.417 -0.65)
+      (pt 0.796 -0.65))))
+   (leg 1 (pt -1.2 0) (padstack 0))
+   (leg 2 (pt 0 0) (padstack 0))
+   (leg 3 (pt 1.2 0) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.4 2.1 0 0 90))
+   )
+   (model "CSTCE8M00G55-R0.stp"
+    (euler 90 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

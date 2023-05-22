@@ -1,0 +1,18 @@
+.WCR1206-39KFI :1 ;WELWYN - WCR1206-39KFI - RES, THICK FILM, 39K, 1%, 0.25W, 1206
+RESC3116X70N
+*STM R
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN WCR1206-39KFI
+~!Manufacturer_Name (TT Electronics)
+~!Manufacturer_Part_Number (WCR1206-39KFI)
+~!Mouser Part Number (756-WCR1206-39KFI)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=756-WCR1206-39KFI)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (http://www.ttelectronicsresistors.com/datasheets/WCR.pdf)
+~!Height (0.7mm)
+~!3D_Model (WCR1206-39KFI)
+WCR1206-39KFI
+1.1!U 2.1!U 

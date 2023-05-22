@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DRV8313PWPR
+D 2.5A Three Phase Brushless DC Motor Driver (PWM Ctrl)
+K
+F http://www.ti.com/lit/gpn/drv8313
+$ENDCMP
+#
+#End Doc Library

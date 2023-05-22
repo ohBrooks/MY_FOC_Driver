@@ -1,0 +1,146 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "INA240A2PW"
+   (description "80V, Low-/High-Side, Bi-Directional, Zero-Drift, Current Sense Amp w/Enhanced PWM Rejection")
+   (family "ANA")
+   (package "SOP65P640X120-8N")
+   (attribute "Datasheet Link" "http://www.ti.com/lit/gpn/ina240")
+   (attribute "Geometry.Height" "1.2mm")
+   (attribute "Manufacturer_Name" "Texas Instruments")
+   (attribute "Manufacturer_Part_Number" "INA240A2PW")
+   (attribute "Mouser Part Number" "595-INA240A2PW")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA240A2PW?qs=aVyJF2WnouTiD4LDXEZ4Dw%3D%3D")
+   (attribute "Arrow Part Number" "INA240A2PW")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/ina240a2pw/texas-instruments?region=nac")
+   (gate
+    (symbol "INA240A2PW")
+    (pin "NC" 1 NC)
+    (pin "IN+" 2 PS)
+    (pin "IN-" 3 PS)
+    (pin "GND" 4 PS)
+    (pin "OUT" 8 PS)
+    (pin "REF1" 7 PS)
+    (pin "REF2" 6 PS)
+    (pin "VS" 5 PS)
+   )
+  )
+  (symbol "INA240A2PW"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 900 100) (pt 900 -400) (pt 200 -400) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SOP65P640X120-8N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -3.925 1.8)
+      (pt 3.925 1.8)
+      (pt 3.925 -1.8)
+      (pt -3.925 -1.8)
+      (pt -3.925 1.8))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.2 1.5)
+      (pt 2.2 1.5)
+      (pt 2.2 -1.5)
+      (pt -2.2 -1.5)
+      (pt -2.2 1.5))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -2.2 0.85)
+      (pt -1.55 1.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1.85 1.5)
+      (pt 1.85 1.5)
+      (pt 1.85 -1.5)
+      (pt -1.85 -1.5)
+      (pt -1.85 1.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -3.675 1.55)
+      (pt -2.2 1.55))))
+   (leg 1 (pt -2.938 0.975) (padstack 0))
+   (leg 2 (pt -2.938 0.325) (padstack 0))
+   (leg 3 (pt -2.938 -0.325) (padstack 0))
+   (leg 4 (pt -2.938 -0.975) (padstack 0))
+   (leg 5 (pt 2.938 -0.975) (padstack 0))
+   (leg 6 (pt 2.938 -0.325) (padstack 0))
+   (leg 7 (pt 2.938 0.325) (padstack 0))
+   (leg 8 (pt 2.938 0.975) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.45 1.475 0 0 0))
+   )
+   (model "INA240A2PW.stp"
+    (euler 90 0 90)
+    (offset 0 0 0.6800000071525574)
+   )
+  )
+ )
+)

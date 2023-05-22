@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SGL8022W_SOP8'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Sigma Designs Inc.", "SGL8022W/SOP8" (!) = "", "SOIC127P600X177-8N", "Small Outline Packages", "", "", "", "", "Single-channel DC LED control touch chip Version 1.6", "http://www.coldtears-electronics.com/images/SGL8022W.pdf", "1.77 mm"
+END_PART
+
+END.

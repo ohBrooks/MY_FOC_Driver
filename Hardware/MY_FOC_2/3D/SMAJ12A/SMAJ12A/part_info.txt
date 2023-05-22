@@ -1,0 +1,9 @@
+Manufacturer=LITTELFUSE
+PartNumber=SMAJ12A
+PartCategory=Diode ESD (Uni-directional)
+PackageCategory=Diodes Moulded
+PinCount=2
+Version=2.3
+Released=2021-08-19 12:54:12
+Downloaded=2023-05-20 04:48:10
+3D=Y

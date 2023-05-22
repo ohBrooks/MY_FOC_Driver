@@ -1,0 +1,18 @@
+.INA240A2PW :1 ;80V, Low-/High-Side, Bi-Directional, Zero-Drift, Current Sense Amp w/Enhanced PWM Rejection
+SOP65P640X120-8N
+*STM IC
+*NGS
+*PLB 1="NC" 2="IN+" 3="IN-" 4="GND" 5="VS" 6="REF2" 7="REF1" 8="OUT"
+*MXP 8
+*DFN INA240A2PW
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (INA240A2PW)
+~!Mouser Part Number (595-INA240A2PW)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA240A2PW?qs=aVyJF2WnouTiD4LDXEZ4Dw%3D%3D)
+~!Arrow Part Number (INA240A2PW)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/ina240a2pw/texas-instruments?region=nac)
+~!Link Datasheet (http://www.ti.com/lit/gpn/ina240)
+~!Height (1.2mm)
+~!3D_Model (INA240A2PW)
+INA240A2PW
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

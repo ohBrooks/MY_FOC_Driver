@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "DRV8313PWPR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-02-02-09:25:17)
+    (mountForm default
+        (footprintRef "SOP65P640X120-29N")
+        (spec "System")
+    )
+)

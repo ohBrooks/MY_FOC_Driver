@@ -1,0 +1,9 @@
+Manufacturer=Murata Electronics
+PartNumber=CSTCE8M00G55-R0
+PartCategory=Resistor
+PackageCategory=Other
+PinCount=3
+Version=1.1
+Released=2017-07-31 15:27:34
+Downloaded=2023-05-20 04:44:31
+3D=Y

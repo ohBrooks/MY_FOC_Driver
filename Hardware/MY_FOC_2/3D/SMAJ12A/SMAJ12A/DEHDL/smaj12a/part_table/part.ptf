@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'SMAJ12A'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "LITTELFUSE", "SMAJ12A" (!) = "", "DIOM5127X229N", "Diodes Moulded", "576-SMAJ12A", "https://www.mouser.co.uk/ProductDetail/Littelfuse/SMAJ12A?qs=HR2RnyOI4E63xEASay2NCQ%3D%3D", "SMAJ12A", "https://www.arrow.com/en/products/smaj12a/littelfuse?region=nac", "LITTELFUSE - SMAJ12A - TVS Diode, SMAJ1 Series, Unidirectional, 12 V, 19.9 V, DO-214AC (SMA), 2 Pins", "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf", "2.29 mm"
+END_PART
+
+END.

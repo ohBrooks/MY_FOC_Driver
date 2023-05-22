@@ -1,0 +1,18 @@
+.DRV8313PWPR :1 ;2.5A Three Phase Brushless DC Motor Driver (PWM Ctrl)
+SOP65P640X120-29N
+*STM IC
+*NGS
+*PLB 1="CPL" 2="CPH" 3="VCP" 4="VM_1" 5="OUT1" 6="PGND1" 7="PGND2" 8="OUT2" 9="OUT3" 10="PGND3" 11="VM_2" 12="COMPP" 13="COMPN" 14="GND_1" 15="V3P3" 16="NRESET" 17="NSLEEP" 18="NFAULT" 19="NCOMPO" 20="GND_2" 21="NC" 22="EN3" 23="IN3" 24="EN2" 25="IN2" 26="EN1" 27="IN1" 28="GND_3" 29="EP"
+*MXP 29
+*DFN DRV8313PWPR
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (DRV8313PWPR)
+~!Mouser Part Number (595-DRV8313PWPR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DRV8313PWPR?qs=aQEsdMNF%2FMwPk4783CnTRg%3D%3D)
+~!Arrow Part Number (DRV8313PWPR)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/drv8313pwpr/texas-instruments?region=nac)
+~!Link Datasheet (http://www.ti.com/lit/gpn/drv8313)
+~!Height (1.2mm)
+~!3D_Model (DRV8313PWPR)
+DRV8313PWPR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 29.1!U 28.1!U 27.1!U 26.1!U 25.1!U 24.1!U 23.1!U 22.1!U 21.1!U 20.1!U 19.1!U 18.1!U 17.1!U 16.1!U 15.1!U 

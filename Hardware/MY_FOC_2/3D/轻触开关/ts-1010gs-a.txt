@@ -1,0 +1,16 @@
+﻿"Symbol";"Value";"Unit";
+"REFERENCE";"TS-1010GS-A";"";
+"TraceParts.PartVersion";"1.0.3";"";
+"SUPPLIER";"广东星坤科技股份有限公司";"";
+"TraceParts.PartNumber";"90-02062021-032723";"";
+"h";"1.6";"";
+"DESIGN";"1.6*3.9小侧按轻触开关100gf带固定柱";"";
+"TraceParts.InstanceId";"90-02062021-0327232N3XX9WWY2MK673V115V3T3RA";"";
+"TraceParts.PartLanguage";"zh";"";
+"TraceParts.PartTitle";"1.6*3.9小侧按轻触开关100gf带固定柱";"";
+"a";"贴片型";"";
+"b";"侧面操作";"";
+"c";"0.15±0.05mm";"";
+"e";"无带";"";
+"f";"W3.05xD3.9xH1.6";"";
+"g";"敏感";"";

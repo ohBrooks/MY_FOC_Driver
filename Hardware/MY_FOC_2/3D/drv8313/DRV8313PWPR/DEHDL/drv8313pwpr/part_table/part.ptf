@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'DRV8313PWPR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "DRV8313PWPR" (!) = "", "SOP65P640X120-29N", "Small Outline Packages", "595-DRV8313PWPR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DRV8313PWPR?qs=aQEsdMNF%2FMwPk4783CnTRg%3D%3D", "DRV8313PWPR", "https://www.arrow.com/en/products/drv8313pwpr/texas-instruments?region=nac", "2.5A Three Phase Brushless DC Motor Driver (PWM Ctrl)", "http://www.ti.com/lit/gpn/drv8313", "1.2 mm"
+END_PART
+
+END.

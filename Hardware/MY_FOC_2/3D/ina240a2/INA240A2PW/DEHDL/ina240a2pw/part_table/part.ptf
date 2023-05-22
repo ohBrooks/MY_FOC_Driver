@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'INA240A2PW'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "INA240A2PW" (!) = "", "SOP65P640X120-8N", "Small Outline Packages", "595-INA240A2PW", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/INA240A2PW?qs=aVyJF2WnouTiD4LDXEZ4Dw%3D%3D", "INA240A2PW", "https://www.arrow.com/en/products/ina240a2pw/texas-instruments?region=nac", "80V, Low-/High-Side, Bi-Directional, Zero-Drift, Current Sense Amp w/Enhanced PWM Rejection", "http://www.ti.com/lit/gpn/ina240", "1.2 mm"
+END_PART
+
+END.

@@ -1,0 +1,18 @@
+.CSTCE8M00G55-R0 :1 ;SMT ceramic resonator 8.0MHz CSTCE8M00G55-R0, Ceramic Resonator, 8MHz Fundamental 33pF, 3-Pin Cap Chip, 3.2 x 1.3 x 0.7mm
+CSTCE12M0G55-R0
+*STM R
+*NGS
+*PLB 1="1" 2="2" 3="3"
+*MXP 3
+*DFN CSTCE8M00G55-R0
+~!Manufacturer_Name (Murata Electronics)
+~!Manufacturer_Part_Number (CSTCE8M00G55-R0)
+~!Mouser Part Number (81-CSTCE8M00G55-R0)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Murata-Electronics/CSTCE8M00G55-R0?qs=eoDEeL6nyORcaHhGM345mw%3D%3D)
+~!Arrow Part Number (CSTCE8M00G55-R0)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/cstce8m00g55-r0/murata-manufacturing)
+~!Link Datasheet (http://www.murata.com/en-eu/api/pdfdownloadapi?cate=&partno=CSTCE8M00G55-R0)
+~!Height (-)
+~!3D_Model (CSTCE8M00G55-R0)
+CSTCE8M00G55-R0
+1.1!U 2.1!U 3.1!U 

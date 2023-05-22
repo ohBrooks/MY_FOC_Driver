@@ -1,0 +1,18 @@
+.SMAJ12A :1 ;LITTELFUSE - SMAJ12A - TVS Diode, SMAJ1 Series, Unidirectional, 12 V, 19.9 V, DO-214AC (SMA), 2 Pins
+DIOM5127X229N
+*STM D
+*NGS
+*PLB 1="K" 2="A"
+*MXP 2
+*DFN SMAJ12A
+~!Manufacturer_Name (LITTELFUSE)
+~!Manufacturer_Part_Number (SMAJ12A)
+~!Mouser Part Number (576-SMAJ12A)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Littelfuse/SMAJ12A?qs=HR2RnyOI4E63xEASay2NCQ%3D%3D)
+~!Arrow Part Number (SMAJ12A)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/smaj12a/littelfuse?region=nac)
+~!Link Datasheet (https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf)
+~!Height (2.29mm)
+~!3D_Model (SMAJ12A)
+SMAJ12A
+1.1!U 2.1!U 

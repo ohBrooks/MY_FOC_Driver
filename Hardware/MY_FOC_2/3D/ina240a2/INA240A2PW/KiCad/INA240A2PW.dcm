@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP INA240A2PW
+D 80V, Low-/High-Side, Bi-Directional, Zero-Drift, Current Sense Amp w/Enhanced PWM Rejection
+K
+F http://www.ti.com/lit/gpn/ina240
+$ENDCMP
+#
+#End Doc Library

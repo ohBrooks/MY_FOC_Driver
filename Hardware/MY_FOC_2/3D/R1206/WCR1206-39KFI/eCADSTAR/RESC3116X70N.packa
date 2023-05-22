@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "WCR1206-39KFI"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2018-06-06-11:10:45)
+    (mountForm default
+        (footprintRef "RESC3116X70N")
+        (spec "System")
+    )
+)
