@@ -1,3 +1,5 @@
+演示视频：https://www.bilibili.com/video/BV1Ro4y1G763/
+
 参考simple_foc的硬件电路部分，选用有感方案，磁编码器为MT6701；
 
 方案详情可参考华南理工大学工创实验室公众号文章（SCUT工创实验室）；
